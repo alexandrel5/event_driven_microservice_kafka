@@ -12,6 +12,8 @@ public class ErrorMessage {
 
     public ErrorMessage(Date timestamp, String message, String details) {
         this.timestamp = timestamp;
+        this.message = message;
+        this.details = details;
     }
 
     public String getMessage() {
