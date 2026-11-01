@@ -26,7 +26,8 @@ public class ProductCreatedEventHandler {
 
     @KafkaHandler
     public void handle(ProductCreatedEvent productCreateEvent) {
-        LOGGER.info("Receive a new event: "+ productCreateEvent.getTitle());
+        LOGGER.info("Receive a new event: "+ productCreateEvent.getTitle() + " with productId: "
+                + productCreateEvent.getProductId());
 
         String requestUrl = "http://localhost:8082/response/200";
         try {
