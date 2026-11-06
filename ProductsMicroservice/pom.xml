@@ -8,7 +8,7 @@
 		<version>4.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.appsdeveloperblog.ws</groupId>
+	<groupId>com.alexandrel5.ws</groupId>
 	<artifactId>ProductsMicroservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
@@ -31,7 +31,7 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.appsdeveloperblog.ws</groupId>
+			<groupId>com.alexandrel5.ws</groupId>
 			<artifactId>core</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27e555e5-3aaa-43f7-a6ff-50e42708037b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/EmailNotificationMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/EmailNotificationMicroserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/KafkaConsumerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/ProductCreatedEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/ProductCreatedEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/error/NotRetryableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/error/NotRetryableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/error/RetryableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/error/RetryableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/io/ProcessedEventEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/io/ProcessedEventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/test/java/com/appsdeveloperblog/ws/emailnotification/EmailNotificationMicroserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/test/java/com/alexandrel5/ws/emailnotification/EmailNotificationMicroserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/ProductsMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/ProductsMicroserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/rest/CreateProductRestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/rest/CreateProductRestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/rest/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/rest/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/appsdeveloperblog/ws/products/ProductsMicroserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/alexandrel5/ws/products/ProductsMicroserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/appsdeveloperblog/ws/products/ProductsServiceIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/alexandrel5/ws/products/ProductsServiceIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/test/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/test/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/appsdeveloperblog/ws/core/ProductCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/alexandrel5/ws/core/ProductCreatedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/MockserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/alexandrel5/ws/mockservice/MockserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/StatusCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/alexandrel5/ws/mockservice/StatusCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockservice/src/test/java/com/appsdeveloperblog/ws/mockservice/MockserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/src/test/java/com/alexandrel5/ws/mockservice/MockserviceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alexandrel5"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alexandrel5/event_driven_microservice_kafka.git",
+    "accountId": "9ac94e2a-c494-43ec-816f-c054f9855e7c"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3LkA8xTfFaGUQiaTIsx6lZHG59F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27e555e5-3aaa-43f7-a6ff-50e42708037b" name="Changes" comment="" />
+      <created>1793987539323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793987539323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
