@@ -30,12 +30,16 @@ import java.math.BigDecimal;
 import java.util.Map;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.TimeUnit;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @DirtiesContext
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @ActiveProfiles("test")//application-test.properties
 @EmbeddedKafka(partitions = 3, count = 3, controlledShutdown = true)
-@SpringBootTest(properties = "sping.kafka.producer.bootstrap-server=${spring.embedded.kafka.brokers}")
+@SpringBootTest(properties = "spring.kafka.producer.bootstrap-servers=${spring.embedded.kafka.brokers}")
 public class ProductsServiceIntegrationTest {
 
     @Autowired
@@ -64,7 +68,7 @@ public class ProductsServiceIntegrationTest {
     }
 
     @Test
-    void testCreateProduct_whenGivenValidProductDetail_successfullSendsKafkaMessage() throws Exception {
+    void testCreateProduct_whenGivenValidProductDetail_successfullySendsKafkaMessage() throws Exception {
         // Arrange
         String title="iPhone 11";
         BigDecimal price = new BigDecimal(600);
@@ -80,6 +84,14 @@ public class ProductsServiceIntegrationTest {
 
 
         //Assert
+        ConsumerRecord<String, ProductCreatedEvent> message = records.poll(3000, TimeUnit.MILLISECONDS);
+        assertNotNull(message);
+        assertNotNull(message.key());
+        ProductCreatedEvent productCreatedEvent = message.value();
+        assertEquals(createProductRestModel.getQuantity(), productCreatedEvent.getQuantity());
+        assertEquals(createProductRestModel.getTitle(), productCreatedEvent.getTitle());
+        assertEquals(createProductRestModel.getPrice(), productCreatedEvent.getPrice());
+
 
     }
 

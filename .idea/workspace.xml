@@ -4,58 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27e555e5-3aaa-43f7-a6ff-50e42708037b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/EmailNotificationMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/EmailNotificationMicroserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/KafkaConsumerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/ProductCreatedEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/ProductCreatedEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/error/NotRetryableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/error/NotRetryableException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/error/RetryableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/error/RetryableException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/io/ProcessedEventEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/io/ProcessedEventRepository.java" afterDir="false" />
+    <list default="true" id="27e555e5-3aaa-43f7-a6ff-50e42708037b" name="Changes" comment="Changes needed">
+      <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/test/java/com/alexandrel5/ws/emailnotification/ProductCreatedEventHandlerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/KafkaConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/java/com/alexandrel5/ws/emailnotification/KafkaConsumerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice/src/test/java/com/appsdeveloperblog/ws/emailnotification/EmailNotificationMicroserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice/src/test/java/com/alexandrel5/ws/emailnotification/EmailNotificationMicroserviceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/ErrorMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/KafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/ProductsMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/ProductsMicroserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/rest/CreateProductRestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/rest/CreateProductRestModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/rest/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/rest/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/appsdeveloperblog/ws/products/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/main/java/com/alexandrel5/ws/products/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/appsdeveloperblog/ws/products/ProductsMicroserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/alexandrel5/ws/products/ProductsMicroserviceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/appsdeveloperblog/ws/products/ProductsServiceIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/alexandrel5/ws/products/ProductsServiceIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/test/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/test/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/appsdeveloperblog/ws/core/ProductCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/alexandrel5/ws/core/ProductCreatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/MockserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/alexandrel5/ws/mockservice/MockserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/StatusCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/alexandrel5/ws/mockservice/StatusCheckController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockservice/src/test/java/com/appsdeveloperblog/ws/mockservice/MockserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/src/test/java/com/alexandrel5/ws/mockservice/MockserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/alexandrel5/ws/products/ProductsServiceIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsMicroservice/src/test/java/com/alexandrel5/ws/products/ProductsServiceIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alexandrel5"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alexandrel5&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alexandrel5/event_driven_microservice_kafka.git",
-    "accountId": "9ac94e2a-c494-43ec-816f-c054f9855e7c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alexandrel5/event_driven_microservice_kafka.git&quot;,
+    &quot;accountId&quot;: &quot;9ac94e2a-c494-43ec-816f-c054f9855e7c&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -63,10 +45,69 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000000009678" />
+      <entry key="S5" value="1.0000742140479688" />
+      <entry key="S10" value="1.01486049534991" />
+      <entry key="S30" value="1.5486876667983127" />
+      <entry key="S60" value="2.7973821361145266" />
+      <entry key="M2" value="5.467368172551334" />
+      <entry key="M5" value="12.350055772067153" />
+      <entry key="M10" value="21.13733056910252" />
+      <entry key="M15" value="29.806421188592857" />
+      <entry key="M30" value="53.78367536014534" />
+      <entry key="H1" value="82.99071389115008" />
+      <entry key="H2" value="107.18332917577723" />
+      <entry key="H4" value="122.98544576678952" />
+      <entry key="D1" value="138.5790915036775" />
+      <entry key="W1" value="141.50471647361235" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="6.195723643667015E-177" />
+      <entry key="MS500" value="5.736624258791135E-36" />
+      <entry key="S2" value="1.8712476335601E-9" />
+      <entry key="S5" value="5.806653484745174E-4" />
+      <entry key="S10" value="0.04587454848209623" />
+      <entry key="S30" value="0.9439751060070605" />
+      <entry key="S60" value="2.5215662967213417" />
+      <entry key="M2" value="5.640143032348329" />
+      <entry key="M5" value="13.753153853798297" />
+      <entry key="M10" value="22.880534460840227" />
+      <entry key="M15" value="30.84961113879057" />
+      <entry key="M30" value="51.86943210692351" />
+      <entry key="H1" value="77.1551927178576" />
+      <entry key="H2" value="98.03059086430272" />
+      <entry key="H4" value="111.64269994145143" />
+      <entry key="D1" value="125.05887983117454" />
+      <entry key="W1" value="127.57422694323388" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.3737123121587346" />
+      <entry key="MS500" value="0.8213107007520658" />
+      <entry key="S2" value="0.9519779090757577" />
+      <entry key="S5" value="0.9809637962833491" />
+      <entry key="S10" value="1.0421736617378812" />
+      <entry key="S30" value="2.419094709156931" />
+      <entry key="S60" value="5.206504569825736" />
+      <entry key="M2" value="10.966211028277606" />
+      <entry key="M5" value="25.95921493070664" />
+      <entry key="M10" value="43.8967524085858" />
+      <entry key="M15" value="60.54657349261349" />
+      <entry key="M30" value="105.56098172717654" />
+      <entry key="H1" value="160.07763110063996" />
+      <entry key="H2" value="205.17066219032802" />
+      <entry key="H4" value="234.60354927633767" />
+      <entry key="D1" value="263.6333849133705" />
+      <entry key="W1" value="269.0782751747098" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3LkA8xTfFaGUQiaTIsx6lZHG59F" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -74,10 +115,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ProductCreatedEventHandlerIntegrationTest.TestProductCreatedEventHandler_OnProductCreated_HandlesEvent.executor": "Coverage",
+    "JUnit.ProductsServiceIntegrationTest.executor": "Coverage",
+    "JUnit.ProductsServiceIntegrationTest.testCreateProduct_whenGivenValidProductDetail_successfullSendsKafkaMessage.executor": "Coverage",
+    "JUnit.ProductsServiceIntegrationTest.testCreateProduct_whenGivenValidProductDetail_successfullySendsKafkaMessage.executor": "Coverage",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.MockserviceApplication.executor": "Run",
+    "Spring Boot.ProductsMicroserviceApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -89,6 +136,94 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ProductCreatedEventHandlerIntegrationTest.TestProductCreatedEventHandler_OnProductCreated_HandlesEvent">
+    <configuration name="ProductCreatedEventHandlerIntegrationTest.TestProductCreatedEventHandler_OnProductCreated_HandlesEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmailNotificationMicroservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alexandrel5.ws.emailnotification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alexandrel5.ws.emailnotification" />
+      <option name="MAIN_CLASS_NAME" value="com.alexandrel5.ws.emailnotification.ProductCreatedEventHandlerIntegrationTest" />
+      <option name="METHOD_NAME" value="TestProductCreatedEventHandler_OnProductCreated_HandlesEvent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsServiceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductsMicroservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alexandrel5.ws.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alexandrel5.ws.products" />
+      <option name="MAIN_CLASS_NAME" value="com.alexandrel5.ws.products.ProductsServiceIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsServiceIntegrationTest.testCreateProduct_whenGivenValidProductDetail_successfullSendsKafkaMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductsMicroservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alexandrel5.ws.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alexandrel5.ws.products" />
+      <option name="MAIN_CLASS_NAME" value="com.alexandrel5.ws.products.ProductsServiceIntegrationTest" />
+      <option name="METHOD_NAME" value="testCreateProduct_whenGivenValidProductDetail_successfullSendsKafkaMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsServiceIntegrationTest.testCreateProduct_whenGivenValidProductDetail_successfullySendsKafkaMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductsMicroservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alexandrel5.ws.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alexandrel5.ws.products" />
+      <option name="MAIN_CLASS_NAME" value="com.alexandrel5.ws.products.ProductsServiceIntegrationTest" />
+      <option name="METHOD_NAME" value="testCreateProduct_whenGivenValidProductDetail_successfullySendsKafkaMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="mockservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alexandrel5.ws.mockservice.MockserviceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alexandrel5.ws.mockservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductCreatedEventHandlerIntegrationTest.TestProductCreatedEventHandler_OnProductCreated_HandlesEvent" />
+        <item itemvalue="JUnit.ProductsServiceIntegrationTest" />
+        <item itemvalue="JUnit.ProductsServiceIntegrationTest.testCreateProduct_whenGivenValidProductDetail_successfullySendsKafkaMessage" />
+        <item itemvalue="JUnit.ProductsServiceIntegrationTest.testCreateProduct_whenGivenValidProductDetail_successfullSendsKafkaMessage" />
+        <item itemvalue="Spring Boot.MockserviceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -108,5 +243,23 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes needed" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/event_driven_microservice_kafka$ProductsServiceIntegrationTest.exec" NAME="ProductsServiceIntegrationTest Coverage Results" MODIFIED="1794253134089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.alexandrel5.ws.products.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/event_driven_microservice_kafka$ProductCreatedEventHandlerIntegrationTest_TestProductCreatedEventHandler_OnProductCreated_HandlesEvent.exec" NAME="ProductCreatedEventHandlerIntegrationTest.TestProductCreatedEventHandler_OnProductCreated_HandlesEvent Coverage Results" MODIFIED="1794257826352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.alexandrel5.ws.emailnotification.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/event_driven_microservice_kafka$ProductsServiceIntegrationTest_testCreateProduct_whenGivenValidProductDetail_successfullySendsKafkaMessage.exec" NAME="ProductsServiceIntegrationTest.testCreateProduct_whenGivenValidProductDetail_successfullySendsKafkaMessage Coverage Results" MODIFIED="1794251870933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.alexandrel5.ws.products.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/event_driven_microservice_kafka$ProductsServiceIntegrationTest_testCreateProduct_whenGivenValidProductDetail_successfullSendsKafkaMessage.exec" NAME="ProductsServiceIntegrationTest.testCreateProduct_whenGivenValidProductDetail_successfullSendsKafkaMessage Coverage Results" MODIFIED="1793990699138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.alexandrel5.ws.products.*</FILTER>
+    </SUITE>
   </component>
 </project>
